@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe Đạp</title>
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/ionicons.css">
+</head>
+<body>
+    <!-- 1. HEADER -->
+    <div id="header">
+        <div class="container">
+            <div class="website">
+                <a href="../index.html">BICYCLE</a>
+            </div>
+        </div>
+    </div>
+
+    <!--2. MENU -->
+    <div id="nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="../MenuTop/GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="../MenuTop/KhuyenMai.html">Khuyến mãi</a></li>
+                <li><a href="../MenuTop/LienHe.html">Liên hệ</a></li>
+            </ul>
+            <div class="form-search">
+                <input type="text" class="keyword" placeholder="Tìm kiếm">
+                <button type="submit" class="btn-search">
+                    <span class="ion-ios-search"></span>
+                </button>
+            </div>  
+            
+            <div class="GioHang">
+                <a href="../MenuTop/GioHang.html"></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 3. BANNER -->
+    <!-- Bỏ Banner -->
+    
+    <!-- 4. CONTENT -->
+    <div id="content">
+        <div class="container">
+
+            <!-- 4.1 CONTENT LEFT -->
+            <div class="left_thanhtoan">
+                <div class="form_thongtinkhachhang">
+                    <h2>THÔNG TIN KHÁCH HÀNG</h2>
+                    <p>Lưu ý: Những trường có dấu * là bắt buộc.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Họ và tên*">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Địa chỉ*">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Email*">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Số điện thoại*">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="noi-dung" id="" cols="66" rows="6" placeholder="Ghi chú đơn hàng"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 4.2 CONTENT RIGHT -->
+            <div class="right_thanhtoan">
+                <div class="chitietdonhang">
+                    <h2>CHI TIẾT ĐƠN HÀNG</h2>
+                    <p>Lựa chọn phương thức thanh toán và tiến hành hoàn tất đơn hàng.</p>
+                    
+                    <div class="khung_table">
+                        <table class="table" border="2" style="border-collapse: collapse ">
+                                <tr>
+                                    <th style="background: #C1C8E4;">Sản Phẩm</th>
+                                    <th width="200" style="background: #C1C8E4;">Thành Tiền</th>
+                                </tr>
+                            
+                                <tr class="order_item">
+                                    <td>
+                                        <div class="tensanpham" style="font-weight: bold;">GIANT TCR SL D 2021</div>
+                                        <div class="soluongsanpham" style="font-style: oblique;">Số lượng: 1</div>
+                                    </td>
+                                    <td width="200">32.500.000 VND</td>
+                                </tr>  
+
+                                <tr>
+                                    <td style="font-weight: bold;">Tổng tiền</td>
+                                    <td width="200" style="font-weight: bold;">32.500.000 VND</td>
+                                </tr>                           
+                        </table>
+                    </div>
+                    
+                    <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+
+                    <div class="phuongthucthanhtoan">
+                        <input type="radio" id="1-option" class="luachon1" name="selector" checked>
+                        <label for="1-option">Thanh toán khi giao hàng (COD)</label>
+                    </div>
+
+                    <div class="phuongthucthanhtoan">
+                        <input type="radio" id="2-option" class="luachon2" name="selector">
+                        <label for="2-option">Thanh toán trực tiếp tiền mặt</label>
+                    </div>
+
+                    <div class="phuongthucthanhtoan">
+                        <input type="radio" id="3-option" class="luachon3" name="selector">
+                        <label for="3-option">Chuyển khoản ngân hàng</label>
+                    </div>
+
+                    <form action="../index.html">
+                        <div class="btn-hoantat">
+                            <input type="submit" onclick="hoantat()" value="HOÀN TẤT ĐƠN HÀNG">
+                            <script>  
+                                function hoantat(){  
+                                  alert("Bạn đã đặt hàng thành công.");                             
+                                }  
+                            </script>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <div class="column1">
+                <h3>THÀNH VIÊN</h3>
+                <p>Huỳnh Hữu Thành</p>
+                <p>Thạch Lê Thái</p>
+            </div>
+
+            <div class="column2">
+                <h3>THÔNG TIN CÔNG TY</h3>
+                <a href="../MenuTop/GioiThieu.html">Giới thiệu chung</a>
+                <br>
+                <a href="../MenuTop/LienHe.html">Liên hệ</a>
+            </div>
+
+            <div class="column3">
+                <h3>TƯ VẤN KHÁCH HÀNG</h3>
+                <p>0869321727</p>
+                <p>0332413256</p>
+            </div>
+
+            <div class="column4">
+                <h3>ĐỊA CHỈ</h3>
+                <p>75 Xuân Hồng, P12, Q.Tân Bình, TP.HCM</p>
+                <p>Email: hhthanh31@gmail.com</p>
+                <p>Email: silverboots2015@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+</html>

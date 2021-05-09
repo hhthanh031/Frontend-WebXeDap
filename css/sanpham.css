@@ -1,0 +1,851 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 1. HEADER */
+#header{
+    width: 100%;
+    height: 80px;
+}
+
+#header .container{
+    width: 1140px;
+    margin: 0px auto;
+    height: 80px;
+}
+
+#header .container div.website{
+    width: 350px;
+    float: left;
+}
+
+#header .container div.website a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    display: block;
+    line-height: 80px;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 2. MENU */
+#nav{
+    width: 100%;
+    background: #5680E9;
+    height: 50px;
+    float: left;
+}
+
+#nav .container{
+    width: 1140px;
+    margin: 0px auto;
+
+}
+
+#nav .container ul.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 600px;
+}
+
+#nav .container ul.menu li{
+    display: inline-block;
+}
+
+#nav .container ul.menu li a{
+    text-decoration: none;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    color: white;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+#nav .container ul.menu li a:hover{
+    color: #C1C8E4;   
+}
+
+#nav .form-search{
+    width: 380px;
+    float: left;
+    position: relative;
+}
+
+#nav .form-search .keyword{
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #C1C8E4;
+    height: 40px;
+    margin-top: 5px;
+    text-indent: 15px;
+    border-radius: 7px;
+}
+
+#nav .form-search .btn-search{
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    background: transparent; /* backgroup trong suốt*/
+    
+}
+
+.ion-ios-search{
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
+}
+
+#nav .container .GioHang{
+    float: right;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#nav .container .GioHang a{
+    text-decoration: none;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    font-weight: bold;
+    background: url(../images/GioHang.png) 50px no-repeat;
+}
+
+.co-dinh-menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    box-shadow: 2px 5px 5px rgb(0,0,0,0.35);
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 3.BANNER */
+#banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#banner img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 4. CONTENT */
+
+/* 4.1 SIDEBAR */
+#content{   
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+#content .container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#content .container .left{
+    width: 300px;
+    min-height: 250px;
+    float: left;
+}
+
+.menu_sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #C1C8E4;
+}
+
+.menu_sidebar ul li{
+    list-style: none;
+}
+
+.menu_sidebar h4{
+    background: #5680E9;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.menu_sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    border-bottom: 1px solid #C1C8E4;
+    color: black;
+    background: url(../images/icons8-expand-arrow-30.png) no-repeat 3px;
+    text-indent: 35px;
+}
+
+.menu_sidebar ul li a:hover{
+    color: #5680E9;
+}
+
+
+
+
+
+
+
+/* 4.2 CONTENT RIGHT */
+#content .container .right{
+    width: 890px;
+    height: auto;
+    float: right;
+    margin-bottom: 50px;
+}
+
+#content .container .right .product .item{
+    height: 350px;
+    width: 285px;
+    float: left;
+    text-align: center
+}
+
+#content .container .right .product .item .btn-muahang{
+    text-decoration: none;
+    border: 16px solid #5680E9;
+    font-weight: bold;  
+    background: #5680E9; 
+    color: white;
+    display: inline-block;
+    border-radius: 7px;  
+}
+
+#content .container .right .product .item ul {
+    float: left;
+    margin: 0px;
+    padding: 15px;
+}
+
+#content .container .right .product .item ul li{
+    list-style: none;   
+    margin: 0px;
+    padding: 2px;
+}
+
+#content .container .right .product .item ul li a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    
+}
+
+#content .container .right .product .item ul li p{
+    color: red;
+    font-weight: bold;
+}
+
+#content .container .right .product .item ul li a img{
+    width: 250px;
+    height: 200px;
+}
+
+#content .container .right .product .item .btn-muahang:hover{
+    color: #C1C8E4;
+}
+
+
+/* TRỞ VỀ ĐẦU TRANG */
+#content .back-to-top{
+    float: left;
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #84CEEB;
+    font-size: 5px;
+    padding: 1em;
+    display: none;
+    border: 1px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* 5. FOOTER */
+#footer{
+    clear: both;
+    background: #C1C8E4;
+    width: 100%;
+    height: 150px;
+}
+
+#footer .container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#footer .container .column1{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+#footer .container .column2{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+
+#footer .container .column3{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+
+#footer .container .column4{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+
+#footer .container h3{
+    color: black;
+    height: 50px;
+    line-height: 50px;
+}
+
+#footer .container .column1 p{
+    line-height: 23px;
+}
+
+#footer .container .column1 p{
+    line-height: 23px;
+}
+
+#footer .container .column2 a{
+    line-height: 23px;
+    color: blue;
+    text-decoration: none;
+}
+
+#footer .container .column2 a:hover{
+    color: white;
+}
+
+#footer .container .column3 p{
+    line-height: 30px;
+    font-size: 22px;
+    color: blue;
+    background: url(../images/icons8-phone-30.png) no-repeat;
+    text-indent: 35px;
+}
+
+#footer .container .column4 p{
+    line-height: 23px;
+}
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* CSS CHI TIẾT SẢN PHẨM */
+
+#content .container .right .product .image_sanpham{
+    width: 480px;
+    height: 300px;
+    float: left;
+}
+
+#content .container .right .product .image_sanpham img{
+    width: 413px;
+    height: 297px;
+    margin-left: 30px;    
+}
+
+#content .container .right .product .gia_sanpham{
+    width: 410px;
+    height: 300px;
+    float: left;
+    line-height: 50px;    
+}
+
+#content .container .right .product .gia_sanpham h2{
+    border-bottom: 1px solid #C1C8E4;    
+}
+
+#content .container .right .product .gia_sanpham .gia{
+       color: red;
+       font-size: 24px;
+       font-weight: bold;
+}
+
+#content .container .right .product .gia_sanpham .trangthai{
+    
+    font-size: 18px;
+}
+
+#content .container .right .product .gia_sanpham .soluong{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#content .container .right .product .gia_sanpham .soluongsanpham{
+    font-size: 18px;
+    margin-bottom: 28px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #C1C8E4;
+}
+
+#content .container .right .product .gia_sanpham a{
+    text-decoration: none;
+    font-size: 18px;
+    border: 16px solid #5680E9;
+    background: #5680E9;
+    color: white;
+    border-radius: 7px;
+}
+
+#content .container .right .product .gia_sanpham .MuaHang{
+    text-decoration: none;
+    font-size: 18px;
+    border: 16px solid #ffaf00;
+    background: #ffaf00;
+    color: black;
+    border-radius: 7px;
+}
+
+#content .container .right .product .gia_sanpham a:hover{
+    color: #C1C8E4;
+}
+
+#content .container .right .product .gia_sanpham .MuaHang:hover{
+    color: white;
+}
+
+#content .container .right .product .chitiet_sanpham{
+    width: 890px;
+    height: auto;
+    float: left;
+    line-height: 30px;
+}
+
+#content .container .right .product .chitiet_sanpham{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+}
+
+#content .container .right .product .chitiet_sanpham h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right .product .chitiet_sanpham h3{
+    margin-bottom: 10px;
+}
+
+#content .container .right .product .chitiet_sanpham .mota{
+    margin-bottom: 15px;
+}
+
+#content .container .right .product .chitiet_sanpham .mota_1{
+    margin-bottom: 30px;
+}
+
+#content .container .right .product .chitiet_sanpham .mota_2{
+    text-align: center;   
+}
+
+#content .container .right .product .chitiet_sanpham .mota_2 p {
+    margin-bottom: 10px;
+}
+
+#content .container .right .product .chitiet_sanpham img{
+    width: 690px;
+    height: 496px;
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* TRANG GIỚI THIỆU */
+#content .container .right .product .gioithieu{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .right .product .gioithieu h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right .product .gioithieu h3{
+    margin-bottom: 10px;
+}
+
+#content .container .right .product .gioithieu .mota{
+    margin-bottom: 15px;
+}
+
+#content .container .right .product .gioithieu .mota_1{
+    margin-bottom: 30px;
+}
+
+#content .container .right .product .gioithieu .logoBICYCLE{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#content .container .right .product .gioithieu .logoBICYCLE img{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* TRANG KHUYẾN MÃI */
+#content .container .right .product .chuongtrinhkhuyenmai{
+    height: 600px;
+}
+
+#content .container .right .product .khuyenmai{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .right .product .khuyenmai h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right .product .khuyenmai h3{
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* TRANG LIÊN HỆ (GỒM: THÔNG TIN LIÊN HỆ + FORM-LIÊN HỆ) */
+
+/* THÔNG TIN LIÊN HỆ */
+#content .container .right .product .thongtinlienhe{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .right .product .thongtinlienhe h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right .product .thongtinlienhe p{
+    margin-bottom: 20px;
+}
+
+#content .container .right .product .thongtinlienhe h3{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* FORM - LIÊN HỆ */
+#content .container .right .product .form_lienhe{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .right .product .form_lienhe h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right .product .form_lienhe p{
+    margin-bottom: 20px;
+}
+
+#content .container .right .product .form_lienhe .form-group{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+
+#content .container .right .product .form_lienhe .form-group input{
+    width: 450px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#content .container .right .product .form_lienhe .form-group textarea{
+    margin-bottom: -10px;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 10px;   
+}
+
+
+/* BTN GỬI */
+#content .container .right .product .form_lienhe .contact-submit{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#content .container .right .product .form_lienhe .contact-submit input{
+    height: 40px;
+    width: 100px;
+    background: #5680E9;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*PHẦN THANH TOÁN SẢN PHẨM (LEFT + RIGHT) */
+
+#content .container .left_thanhtoan{
+    width: 590px;
+    margin: 0px auto;
+    float: left;
+}
+
+#content .container .right_thanhtoan {
+    width: 590px; 
+    float: right;
+}  
+
+
+
+
+/* LEFT. NHẬP THÔNG TIN KHÁCH HÀNG */
+#content .container .left_thanhtoan .form_thongtinkhachhang{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .left_thanhtoan .form_thongtinkhachhang h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .left_thanhtoan .form_thongtinkhachhang p{
+    margin-bottom: 20px;
+}
+
+#content .container .left_thanhtoan .form_thongtinkhachhang .form-group{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#content .container .left_thanhtoan .form_thongtinkhachhang .form-group input{
+    width: 558px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#content .container .left_thanhtoan .form_thongtinkhachhang .form-group textarea{
+    margin-bottom: -20px;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 10px;   
+}
+
+
+
+
+/* RIGHT. CHI TIẾT ĐƠN HÀNG */
+#content .container .right_thanhtoan .chitietdonhang{
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content .container .right_thanhtoan .chitietdonhang h2{
+    margin-bottom: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+}
+
+#content .container .right_thanhtoan .chitietdonhang p{
+    margin-bottom: 20px;
+}
+
+
+
+
+/* RIGHT. KHUNG BẢNG GIÁ */
+#content .container .right_thanhtoan .chitietdonhang .khung_table{
+    width: 590px;
+    text-align: left;
+    margin-bottom: 30px;   
+}
+
+#content .container .right_thanhtoan .chitietdonhang .khung_table .table{
+    width: 567px;
+    border: 1px solid #dee2e6;
+    font-size: 16px;     
+}
+
+#content .container .right_thanhtoan .chitietdonhang .khung_table .table tr{
+    height: 65px;
+    
+}
+
+#content .container .right_thanhtoan .chitietdonhang .khung_table .table tr td{
+    padding-left: 10px;
+}
+
+#content .container .right_thanhtoan .chitietdonhang .khung_table .table tr th{
+    padding-left: 10px;
+}
+
+
+/* RIGHT. CHỌN PHƯƠNG THỨC THANH TOÁN */
+#content .container .right_thanhtoan .chitietdonhang .phuongthucthanhtoan{
+    margin: 10px 1px;
+    padding: 10px;
+    background: #C1C8E4;
+}
+
+#content .container .right_thanhtoan .chitietdonhang .btn-hoantat{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+
+/* RIGHT. BTN HOÀN TẤT MUA HÀNG */
+#content .container .right_thanhtoan .chitietdonhang .btn-hoantat input{
+    height: 60px;
+    width: 200px;
+    background: #5680E9;
+    color: white;
+    font-size: 17px;
+    border: none; 
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* CHI TIẾT GIỎ HÀNG */
+#content .container .ChiTietGioHang{
+    width: 1200px;
+    height: 400px;   
+    margin-bottom: 20px;
+    border: 1px solid #C1C8E4;    
+    line-height: 30px;
+    float: left;
+}
+
+#content .container .ChiTietGioHang h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: #2b57c7;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#content .container .ChiTietGioHang .khung_table{
+    margin-bottom: 30px; 
+    margin-left: 20px;
+    margin-right: 20px;  
+    text-align: center;
+}
+
+#content .container .ChiTietGioHang .khung_table .table{
+    border: 1px solid #dee2e6;
+    font-size: 16px;     
+}
+
+#content .container .ChiTietGioHang .khung_table .table .tongtien{
+    padding-right: 10px;
+}
+
+#content .container .ChiTietGioHang a{
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+}
+

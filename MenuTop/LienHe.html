@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe Đạp</title>
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/ionicons.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+    
+</head>
+<body>
+    <!-- 1. HEADER -->
+    <div id="header">
+        <div class="container">
+            <div class="website">
+                <a href="../index.html">BICYCLE</a>
+            </div>
+        </div>
+    </div>
+
+    <!--2. MENU -->
+    <div id="nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="GioiThieu.html">Giới thiệu</a></li>
+                <li><a href="KhuyenMai.html">Khuyến mãi</a></li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+            <div class="form-search">
+                <input type="text" class="keyword" placeholder="Tìm kiếm">
+                <button type="submit" class="btn-search">
+                    <span class="ion-ios-search"></span>
+                </button>
+            </div>
+            
+            <div class="GioHang">
+                <a href="GioHang.html"></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 3. BANNER -->
+    <div id="banner">
+        <img src="../images/Banner.jpg" alt="banner">
+    </div>
+    
+    <!-- 4. CONTENT -->
+    <div id="content">
+        <div class="container">
+
+            <!-- 4.1 SIDEBAR -->
+            <div class="left">
+                <div class="menu_sidebar">
+                    <h4>DANH MỤC SẢN PHẨM</h4>
+                    <ul>
+                        <li><a href="../DanhMucXeDap/XeDapTheThao.html">Xe đạp thể thao</a></li>
+                        <li><a href="../DanhMucXeDap/XeDapDuongPho.html">Xe đạp đường phố</a></li>
+                        <li><a href="../DanhMucXeDap/XeDapDiaHinh.html">Xe đạp địa hình</a></li>
+                        <li><a href="../DanhMucXeDap/XeDapDua.html">Xe đạp đua</a></li>
+                        <li><a href="../DanhMucXeDap/XeDapTreEm.html">Xe đạp trẻ em</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 4.2 CONTENT RIGHT -->
+            <div class="right">
+                <div class="product">
+                    <div class="thongtinlienhe">
+                        <h2>THÔNG TIN LIÊN HỆ</h2>
+                        <p>Để chúng tôi có thể phục vụ quý khách tốt nhất, xin vui lòng liên hệ:</p>
+                        <h3>CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ BICYCLE</h3>
+                        <p>
+                            <b>Showroom 1:</b> Số 75 Xuân Hồng – Quận Tân Bình – TP.HCM.
+                            <br>
+                            <b>Showroom 2:</b> Số 77 Xuân Hồng – Quận Tân Bình – TP.HCM.
+                            <br>
+                            <b>Điện thoại:</b> 0869321727
+                            <br>
+                            <b>Hotline:</b> 0332413256
+                            <br>
+                            <b>Email:</b> hhthanh31@gmail.com – silverboots2015@gmail.com
+                            <br>
+                            <b>Website:</b> http://127.0.0.1:5500/index.html
+                            <br>
+                            <b>Giờ làm việc:</b> 8:30 – 19:00 các ngày trong tuần
+                            <br>
+                            <br>
+                            <b>TÀI KHOẢN NGÂN HÀNG:</b> 
+                            <br>
+                            1. Ngân hàng BIDV – Chi nhánh TP.HCM: Huỳnh Hữu Thành – 1601000XXXXXX
+                            <br>
+                            2. Ngân hàng Vietcombank – Chi nhánh TP.HCM: Huỳnh Hữu Thành – 0711000XXXXXX
+                            <br>
+                            3. Ngân hàng Agribank – Chi nhánh TP.HCM: Huỳnh Hữu Thành – 1500216XXXXXX
+                        </p>
+                    </div>
+
+                    <div class="form_lienhe">
+                        <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
+                        <p>Lưu ý: Những trường có dấu * là bắt buộc.</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Họ và tên*">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Địa chỉ">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Email*">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Số điện thoại*">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Chủ đề*">
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea name="noi-dung" id="" cols="80" rows="6" placeholder="Nội dung"></textarea>
+                            </div>
+
+                            <div class="contact-submit">
+                                <input type="submit" onclick="hoantat()" value="GỬI ĐI">
+                                <script>  
+                                    function hoantat(){  
+                                      alert("Yêu cầu của bạn đã được gửi đi.");                             
+                                    }  
+                                </script>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            jQuery(document).ready(function () {
+                var offset = 220;
+                var duration = 500;
+                jQuery(window).scroll(function () {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.back-to-top').fadeIn(duration);
+                    } else {
+                        jQuery('.back-to-top').fadeOut(duration);
+                    }
+                });
+                jQuery('.back-to-top').click(function (event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                    return false;
+                })
+            });</script>
+        
+        <a href="#" class="back-to-top"><img src="../images/Arrows Chevrons.png" alt="Back to Top" /></a>
+
+    </div>
+
+    <!-- 5. FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <div class="column1">
+                <h3>THÀNH VIÊN</h3>
+                <p>Huỳnh Hữu Thành</p>
+                <p>Thạch Lê Thái</p>
+            </div>
+
+            <div class="column2">
+                <h3>THÔNG TIN CÔNG TY</h3>
+                <a href="GioiThieu.html">Giới thiệu chung</a>
+                <br>
+                <a href="LienHe.html">Liên hệ</a>
+            </div>
+
+            <div class="column3">
+                <h3>TƯ VẤN KHÁCH HÀNG</h3>
+                <p>0869321727</p>
+                <p>0332413256</p>
+            </div>
+
+            <div class="column4">
+                <h3>ĐỊA CHỈ</h3>
+                <p>75 Xuân Hồng, P12, Q.Tân Bình, TP.HCM</p>
+                <p>Email: hhthanh31@gmail.com</p>
+                <p>Email: silverboots2015@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    
+</body>
+</html>
